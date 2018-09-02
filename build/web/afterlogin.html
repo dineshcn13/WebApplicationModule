@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .Row
+            {
+                display: table;
+                width: 100%; /*Optional*/
+                table-layout: fixed; /*Optional*/
+                border-spacing: 10px; /*Optional*/
+            }
+            .Column
+            {
+                display: table-cell;
+                border-radius: 15px;   
+                box-shadow: 10px 10px 5px white;
+            }
+            
+            body{
+                background-color: orange;
+            }
+            .submit {
+            width: 10.5em; 
+            height: 3em;
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 0px 0px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            margin: 4px 2px;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+        }
+        .button2:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        
+        
+        
+        </style>
+    </head>
+    <body>
+        
+    <div class="Row">
+            <div class="Column"><center><a href="logout" target="_parent">LOG OUT</a></center></div>
+    </div>   
+    <div class="Row">
+        <div class="Column"><a href="customerinfo.jsp" scrolling="auto"><center><img src="customer.png" style="width:60% ; height:60%"/><br><b>CUSTOMER INFO</b></center></a></div>
+        <div class="Column"><a href="viewcashier.jsp"><center><img src="employee.png" style="width:60% ; height:60%"/><br><b>VIEW/UPDATE EMPLOYEE DETAILS</b></center></a></div>
+        <div class="Column"><a href="main.html" target="_parent"><center><img src="billing.png" style="width:100% ; height:100%" /><br><b>BILLING</b></center></a></div>
+    </div>
+    <div class="Row">
+        <div class="Column"><a href="paymentdetails.jsp"><center><img src="pay.png" style="width:60% ; height:60%"/><br><b>PAYMENTS DETAILS</b></center></a></div>
+        <div class="Column"><a href="addviewstock.jsp"><center><img src="sto.png" style="width:60% ; height:60%"/><br><b>VIEW/ADD STOCK</b></center></a></div>
+        <div class="Column"><a href="dealerinfo.jsp"><center><img src="dealer.png" style="width:60% ; height:60%"/><br><b>DEALERS DETAILS</b></center></a></div>
+    </div>    
+    </body>
+</html>
